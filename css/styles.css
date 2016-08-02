@@ -1,0 +1,257 @@
+@media screen and (min-width: 48em){
+    body{
+        text-align: justify;
+    }
+}
+
+html, 
+body {
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 2px; 
+	font-size: 18px;
+}
+
+#secondimg, #thirdimg, #firstimage {
+	height: 125px;
+}
+
+#maintext:before {   
+font-family: 'FontAwesome';
+content: '\f015';
+margin:0 5px 0 -15px;
+color: white;
+}
+
+
+#cover {
+	background:
+    linear-gradient(
+      rgba(0, 102, 153,0.8),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("images/home2.jpg") center bottom;
+	background-size: cover;
+	color: white;
+	height: 80%;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+
+#feat {
+	color: white;
+	text-align: left; 
+	padding: 10px; 
+
+}
+li {
+	letter-spacing: 3px; 
+	margin-top: 10px;
+	list-style: none;
+	font-family: 'Open Sans';
+	font-weight: 300;  
+
+}
+
+.li:before {    
+font-family: 'FontAwesome';
+content: '\f084';
+margin:0 5px 0 -15px;
+color: white;
+}
+
+h3 {
+	font-family: 'open sans'; 
+	font-style: italic;
+	letter-spacing: 3px;
+	font-size: 2em;
+}
+h2 {
+	font-family: "open Sans";
+
+
+}
+#aboutme {
+	margin-top: 100px;
+	margin-left: 100px; 
+	margin-right: 100px; 
+}
+
+#aboutLeader {
+	font-family: "Open Sans"; 
+	letter-spacing: 3px; 
+}
+
+.btn {
+	color: white;
+	margin: 5px;
+}
+.col-sm-5 {
+	width: 41%; 
+}
+
+#contact {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.card-text {
+	height: 100px;
+}
+
+
+h4 {
+	font-family: "Open Sans";
+	font-weight: bold;
+}
+
+.card-subtitle {
+margin-top: 20px;
+padding-top: 20px;
+}
+
+#headshot {
+	width: 270px;
+}
+
+#cover-caption {
+	width: 100%;
+}
+
+.card-block {
+	height: 260px;
+}
+
+#maintext {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+
+.carousel {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+#what-we-do {
+	text-align: center;
+}
+
+#cardcontainer {
+	margin-top: 40px; 
+}
+
+.section-content {
+	padding: 3rem 0 ;
+}
+
+.carousel-item {
+	width: 200px;
+	text-align: center;
+}
+
+#carousel-testimonials {
+	margin-top: 200px;
+	height: 100%;
+	background-color: yellow;
+}
+	
+#about {
+	font-family: "Open Sans";
+	background: 
+	linear-gradient(
+      rgba(0, 102, 153, 0.3), 
+      rgba(0, 102, 153, 0.3)
+    ),
+	url("https://hd.unsplash.com/photo-1444567257257-a10a4088a89d") bottom center no-repeat;
+	background-size: 100%;
+}
+
+.about-text {
+	background: rgba(0, 102, 153,0.8);
+	padding: 1.875rem;
+	color: white;
+	width: 50%;
+	font-size: 1em;
+}
+
+
+#contact {
+	margin: 100px; 
+
+}
+/* text carousel */
+
+.item {
+	margin-top: 20px;
+    background: rgba(0, 102, 153,0.8);
+    padding: 80px 0px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    height: 500px;
+}
+
+#testImg, #testImg2, #testImg3  {
+	height: 100px;
+}
+
+
+.quotes {
+	padding: 50px;
+	font-family: 'Open Sans'; 
+	font-weight: 300; 
+	font-style: italic;
+	letter-spacing: 2px; 
+	font-size: 18px; 
+	line-height: 1.5; 
+}
+
+.owl-buttons {
+	width: 30%; 
+	text-align: center;
+	margin: 0 auto;
+	height: 75px;
+	margin-top: 20px;
+}
+
+.owl-next, .owl-prev {
+	height: 55px;
+	padding: 10px; 
+	border-radius: 20px;
+	width: 100px;
+	margin-left: 20px; 
+	height: 100%; 
+	color: rgb(0, 102, 153);
+	border: 2px solid rgb(0, 102, 153);
+	display: inline; 
+
+}
+
+/* thumbnail gallery */
+
+
+.page-header {
+	padding: 20px;
+	font-family: "Open Sans"
+}
+
+.thumb {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin: 50px 0;
+}
